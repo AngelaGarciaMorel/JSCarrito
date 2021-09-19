@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "nombre": "Manzana", 
+      "precio": 3000, 
+      "imagen" : "../img/manzana.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Pera", 
+      "precio": 5000, 
+      "imagen" : "../img/pera.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Melón", 
+      "precio": 200, 
+      "imagen" : "../img/melon.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Choclo", 
+      "precio": 50, 
+      "imagen" : "../img/choclo.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Sandía", 
+      "precio": 450, 
+      "imagen" : "../img/sandia.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Anana", 
+      "precio": 435, 
+      "imagen" : "../img/anana.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Uva", 
+      "precio": 100, 
+      "imagen" : "../img/uva.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Carbón", 
+      "precio": 234, 
+      "imagen" : "../img/carbon.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "arandanos", 
+      "precio": 100, 
+      "imagen" : "../img/arandanos.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Zanahoria", 
+      "precio": 65, 
+      "imagen" : "../img/zanahoria.jpg"
+    },
+    {
+      "id": 12,
+      "nombre": "Cable USB", 
+      "precio": 150, 
+      "imagen" : "../img/cableusb.jpg"
+    },
+    {
+      "id": 13,
+      "nombre": "Agua mineral", 
+      "precio": 120, 
+      "imagen" : "../img/aguamineral.jpg"
+    },
+    {
+      "id": 14,
+      "nombre": "Papel Higienico", 
+      "precio": 212, 
+      "imagen" : "../img/papelhigienico.jpg"
+    },
+    {
+      "id": 15,
+      "nombre": "Anillo de oro", 
+      "precio": 55000, 
+      "imagen" : "../img/anillodeoro.jpg"
+    },
+    {
+      "id": 16,
+      "nombre": "Algodón", 
+      "precio": 56, 
+      "imagen" : "../img/algodon.jpg"
+    }
+]

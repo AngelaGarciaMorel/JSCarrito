@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Carrito de compras</title>
+</head>
+<body>
+    <header>
+        <!--<img src="./img/compras.jpg" alt="" class="img-fluid imgTam">-->
+        <nav class="nav bkg-btn-carr d-flex align-items-center">
+            <p class="text-CC">Tienda</p>
+            <img src="./img/cesta-de-la-compra.png" class="img-carrito ml-auto carrito-bar" alt="">
+        </nav>
+
+    </header>
+
+
+    <main style=>
+        <div id="sidebar">
+            <h2 id="carritoArea">Carrito</h2>
+            <!-- Elementos del carrito -->
+            <ul id="carrito" class="list-group"></ul>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio Unitario</th>
+                        <th scope="col">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaCarrito">
+    
+                </tbody>
+            </table>
+            <hr>
+            <!-- Precio total -->
+            <p class="text-right cont-tot">Total: &dollar;<span id="total"></span></p>
+            <div>
+                <button id="btnComprar" class="btn btn-success">Comprar</button>
+                <button id="btnVaciar" class="btn btn-danger">Vaciar</button>
+                <p id="result-compra"></p>
+            </div>
+
+            <tr></tr>
+        </div>
+        
+        <div class="contenido">
+            <div id="dtitle"></div>
+            <section class="secProducts" id="secProducts">         
+            </section>
+        </div>
+
+    </main>
+<!--Scripts js-->  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+    <script src="js/cargaDatos.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

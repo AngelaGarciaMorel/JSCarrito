@@ -1,0 +1,105 @@
+.titleCenter {
+    text-align: center;
+}
+nav {
+    background-color: coral;
+    height: 50px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+	flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+li {
+    padding: 20px 20px 20px 20px;  
+}
+.secProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.prod {
+    background-color: mediumaquamarine;
+    width: 250px;
+    text-align: center;
+    margin-top: 5px;
+}
+footer {
+    margin-top: 2em;
+    background-color: peru;
+    text-align: center;
+    height: 50px;
+}
+.imgTam{
+    width: 100%;
+    height: 35em;
+}
+.img-Prods{
+    width: 40px;
+    height: 40px;
+}
+.text-CC{
+    font-size: xx-large;
+}
+.img-carrito {
+    width: 40px;
+    height: 40px;
+    background-color: crimson;
+    border-radius: 25%;
+    cursor: pointer;
+    margin-right: 10px;
+    border: brown 2px solid;
+
+}
+.img-carrito:hover{
+    transform: scale(1.2);
+    
+}
+.bkg-btn-carr{
+    background-color: orange;
+    height: 6em;
+}
+
+#sidebar{
+    width: 40%;
+    height: 222vh;
+    background-color: white;
+    position: absolute;
+    z-index:1;
+    right: -1px;
+    border: tomato 2px solid;
+
+
+}
+.contenido {
+    width: 100%;
+    height: 225vh;
+    position: absolute;
+    background: white;
+    transition: all 0.3s;
+    z-index:2;
+}
+.abrir{
+    z-index:0;
+}
+.cont-tot{
+    background-color: orange;
+    padding: 5px;
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: bold;
+}
+#total{  
+    margin-right : 5px;
+
+}
+#result-compra{
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
